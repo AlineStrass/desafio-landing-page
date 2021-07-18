@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupom de Desconto My Pet</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section id="container">
+        <div class="coupon-information">
+
+            <div class="cupom-header">
+                <img src="./image/logo-My-Pet.png" alt="logo da My Pet">
+                <h2>QUEREMOS SABER MAIS SOBRE VOCÊ E SEU PET!</h2>
+            </div>
+
+            <div class="cupom-body">
+                <div class="information">
+                    <h3>Quer ganhar 15% de desconto na sua compra?</h3>
+                    <p>Conte-nos um pouco sobre você e seu pet!</p>
+
+                </div>
+                <div class="cupom-image">
+                    <img src="./image/cupom.png" alt="imagem do cupom de desconto de 15%">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="inputs">
+            <p class="inputs-title">PREENCHA OS CAMPOS PARA RECEBER SEU CUPOM</p>
+
+            <form id="form">
+                <div class="name-email">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="nome">
+
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="options-pets">
+                    <label for="pets">Tipo de Pet</label>
+                    <input id="pets" type="search" list="petsOptions">
+                    <datalist id="petsOptions">
+                        <option value="Cachorro">
+                        <option value="Gato">
+                        <option value="Peixe">
+                        <option value="Pássaro">
+                        <option value="Roedores">
+                        <option value="Outros">
+                    </datalist>
+                </div>
+
+                <div class="button">
+                    <button type="submit" id="clicar" onclick="clicar()">Enviar</button>
+                </div>
+
+            </form>
+
+        </div>
+
+
+    </section>
+
+    <footer>Desenvolvido por Aline Strassburger para o Hiring Coders</footer>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Encode Sans SC', sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(231, 226, 218);
+    color: rgb(63, 35, 16);
+    
+}
+
+#container {
+    border: solid 7px rgba(77, 55, 55, 0.158);
+    height: 100vw; 
+    overflow: hidden;
+    width: min(90vw, 800px);
+    margin: auto;
+}
+
+.cupom-header {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    justify-content: center;
+    right: 100vw;
+}
+
+.cupom-header h2 {
+    font-size: 120%;
+    text-align: center;
+}
+
+.cupom-header img {
+    width: 13%;
+}
+
+.cupom-body {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    justify-content: center;
+    right: 100vw;
+}
+
+.cupom-body h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.cupom-body p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+   
+}
+
+.cupom-body a {
+    font-size: 0.8rem;
+    color: rgb(63, 35, 16);
+    margin-left: 38%;
+    border: solid .8px;
+    padding: .8px;
+}
+
+.cupom-body a:hover {
+    background-color: white;
+    color: black;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+}
+
+.cupom-image img {
+    width: 80%;
+    display: flex;
+    margin: 3%;
+    border-left: 10%;  
+}
+
+.inputs {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    right: 100vw;
+}
+
+.inputs-title {
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+form {  
+    width: 400px;
+    padding: 1em;
+    text-align: right;
+    
+
+}
+
+label {   
+    display: inline-block;
+    width: 90px; 
+}
+
+
+button {
+    background-color: white;
+    color: rgb(63, 35, 16);
+    border: none;
+    padding: 10px 35px;
+    margin-right: 40px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+    margin-top: 10px;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    background-color: rgba(0,0,0,.50);
+    color: white;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+}
+
